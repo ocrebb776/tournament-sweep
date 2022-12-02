@@ -1,0 +1,141 @@
+.title {
+    position: fixed;
+    width: 100vw;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px black;
+    padding: 10px;
+    max-height: 150px;
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    height: 100px;
+    top: 0
+}
+
+.titlebar {
+    font-size: 40px;
+    display: grid;
+    place-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.buttonbar {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+
+.navbtn {
+    background-color: rgb(194, 194, 194);
+    padding: 10px;
+}
+
+.navbtn:hover {
+    background-color: rgb(150, 150, 150);
+}
+
+.navbtn:active {
+    background-color: rgb(117, 117, 117);
+}
+
+.buttonbar .active {
+    background-color: #fff;
+}
+
+html,
+body {
+    height: fit-content;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.body {
+    max-width: 100vw;
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: fit-content;
+}
+
+.body .ol {
+    background-color: white;
+    height: fit-content;
+    min-height: 100%;
+}
+
+.body .modds {
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.body .modds h1 {
+    font-size: 20vw;
+    margin: 0px;
+    height: fit-content;
+    min-height: 100%;
+}
+
+li {
+    padding: 10px;
+    height: fit-content;
+    box-shadow: 0px 0px 5px 0px black;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.body .ol div {
+    text-align: center;
+    height: fit-content;
+}
+
+.body .my-teams {
+    height: fit-content;
+    min-height: 100%;
+}
+
+
+/* form */
+
+input {
+    width: 90%;
+    font-size: 30px;
+    padding: 1px;
+    margin: 2px;
+    border: none;
+    background-color: #eee;
+    border-bottom-style: groove;
+}
+
+input:focus {
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+input:active {
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+
+/* user page */
+
+.playerinfo {
+    display: block;
+    border: 1px solid black;
+    width: 80vw;
+    padding: 3px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.ded {
+    background-color: black;
+    color: white;
+}
+
+.body2 {
+    max-width: 100vw;
+    margin-top: 150px;
+    height: fit-content;
+}
